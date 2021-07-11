@@ -1,0 +1,41 @@
+footer {
+  background-color: rgb(48, 51, 51);
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-top: 2vh;
+  div {
+    flex-basis: 200px;
+    margin: 0 50px;
+    h3 {
+      padding: 12px 0;
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+      text-align: center;
+      li {
+        padding: 2px 0;
+        a {
+          font-size: 12px;
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding-top: 0.5vh;
+    height: 15vh;
+  }
+}
+
+@media (max-width: 640px) {
+  footer {
+    padding-top: 0.5vh;
+    height: 40vh;
+  }
+}

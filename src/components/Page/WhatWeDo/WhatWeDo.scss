@@ -1,0 +1,12 @@
+.productsTitle {
+  text-align: center;
+  margin: 10vh 0 10vh 0;
+}
+
+@media (max-width: 768px) {
+  .productsTitle {
+    text-align: center;
+    margin: 5vh 0 5vh 0;
+    font-size: 1.4em;
+  }
+}
