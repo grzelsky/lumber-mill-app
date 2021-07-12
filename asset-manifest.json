@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/lumber-mill-app/static/css/main.fc05784f.chunk.css",
+    "main.js": "/lumber-mill-app/static/js/main.37758d13.chunk.js",
+    "main.js.map": "/lumber-mill-app/static/js/main.37758d13.chunk.js.map",
+    "runtime-main.js": "/lumber-mill-app/static/js/runtime-main.f36c46de.js",
+    "runtime-main.js.map": "/lumber-mill-app/static/js/runtime-main.f36c46de.js.map",
+    "static/js/2.91beaa86.chunk.js": "/lumber-mill-app/static/js/2.91beaa86.chunk.js",
+    "static/js/2.91beaa86.chunk.js.map": "/lumber-mill-app/static/js/2.91beaa86.chunk.js.map",
+    "index.html": "/lumber-mill-app/index.html",
+    "precache-manifest.bc074c19d3e65679145617b36b0b9d34.js": "/lumber-mill-app/precache-manifest.bc074c19d3e65679145617b36b0b9d34.js",
+    "service-worker.js": "/lumber-mill-app/service-worker.js",
+    "static/css/main.fc05784f.chunk.css.map": "/lumber-mill-app/static/css/main.fc05784f.chunk.css.map",
+    "static/js/2.91beaa86.chunk.js.LICENSE.txt": "/lumber-mill-app/static/js/2.91beaa86.chunk.js.LICENSE.txt",
+    "static/media/background_1.jpg": "/lumber-mill-app/static/media/background_1.3f7e606a.jpg",
+    "static/media/background_2.jpg": "/lumber-mill-app/static/media/background_2.89eb32a4.jpg",
+    "static/media/background_3.jpg": "/lumber-mill-app/static/media/background_3.4d9f5d99.jpg",
+    "static/media/background_4.jpg": "/lumber-mill-app/static/media/background_4.855e6789.jpg",
+    "static/media/background_5.jpg": "/lumber-mill-app/static/media/background_5.5fc573ff.jpg",
+    "static/media/bale.jpg": "/lumber-mill-app/static/media/bale.6cf09284.jpg",
+    "static/media/buisness-woman.jpg": "/lumber-mill-app/static/media/buisness-woman.0e053359.jpg",
+    "static/media/contact.jpg": "/lumber-mill-app/static/media/contact.984332a1.jpg",
+    "static/media/deski.jpg": "/lumber-mill-app/static/media/deski.18e25b46.jpg",
+    "static/media/granny.jpg": "/lumber-mill-app/static/media/granny.58a3a01a.jpg",
+    "static/media/kantowki.jpg": "/lumber-mill-app/static/media/kantowki.6827dcda.jpg",
+    "static/media/man.jpg": "/lumber-mill-app/static/media/man.09d6a978.jpg",
+    "static/media/woodworking.png": "/lumber-mill-app/static/media/woodworking.2fa4c668.png",
+    "static/media/worker_1.jpg": "/lumber-mill-app/static/media/worker_1.ecca38f2.jpg",
+    "static/media/worker_2.jpg": "/lumber-mill-app/static/media/worker_2.bcbadf1a.jpg",
+    "static/media/worker_3.jpg": "/lumber-mill-app/static/media/worker_3.7cc43428.jpg",
+    "static/media/worker_4.jpg": "/lumber-mill-app/static/media/worker_4.f287fbd9.jpg",
+    "static/media/wycinka.jpg": "/lumber-mill-app/static/media/wycinka.cbe92421.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f36c46de.js",
+    "static/js/2.91beaa86.chunk.js",
+    "static/css/main.fc05784f.chunk.css",
+    "static/js/main.37758d13.chunk.js"
+  ]
+}
