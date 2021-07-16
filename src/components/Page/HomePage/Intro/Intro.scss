@@ -2,20 +2,23 @@ main {
   .intro {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     height: 85vh;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     .introTitle {
-      flex-basis: 40vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-basis: 15vh;
       h2 {
         text-align: center;
-        font-size: 2.2em;
+        font-size: 3.5em;
         text-transform: capitalize;
-        padding-top: 10vh;
       }
       p {
         text-align: center;
-        font-size: 25px;
-        padding-top: 10vh;
+        font-size: 2.5em;
+        padding: 0 10% 0 10%;
       }
     }
   }
@@ -24,55 +27,24 @@ main {
 @media (max-width: 1366px) {
   main {
     .intro {
-      height: 50vh;
       .introTitle {
-        flex-basis: 10vh;
-        h2 {
-          font-size: 1.5em;
-          padding-top: 2vh;
-        }
         p {
-          font-size: 1.3em;
-          padding: 2vh 0 2vh 0;
+          font-size: 2em;
         }
       }
     }
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 775px) {
   main {
     .intro {
-      height: 50vh;
       .introTitle {
-        flex-basis: 10vh;
-        margin: 0 5vw 0 5vw;
         h2 {
-          font-size: 1.5em;
-          padding-top: 1vh;
+          font-size: 2.4em;
         }
         p {
-          font-size: 1.3em;
-          padding-top: 1vh;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  main {
-    .intro {
-      height: 60vh;
-      .introTitle {
-        flex-basis: 20%;
-        h2 {
-          font-size: 1.5em;
-          padding-top: 3vh;
-        }
-        p {
-          font-size: 1em;
-          padding-top: 2vh;
+          font-size: 1.6em;
         }
       }
     }

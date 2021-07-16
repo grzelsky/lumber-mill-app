@@ -17,25 +17,11 @@ footer {
       li {
         padding: 2px 0;
         a {
-          font-size: 12px;
+          font-size: 1.3em;
           text-decoration: none;
           color: white;
         }
       }
     }
-  }
-}
-
-@media (max-width: 768px) {
-  footer {
-    padding-top: 0.5vh;
-    height: 15vh;
-  }
-}
-
-@media (max-width: 640px) {
-  footer {
-    padding-top: 0.5vh;
-    height: 40vh;
   }
 }

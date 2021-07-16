@@ -5,6 +5,13 @@
 }
 
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
   color: rgb(85, 85, 85);
+}
+
+@media (max-width: 775px) {
+  html {
+    font-size: 9px;
+  }
 }

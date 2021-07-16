@@ -13,44 +13,16 @@
   }
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 775px) {
   .partnersLogos {
     div {
-      div img {
-        height: 85px;
+      div {
+        img {
+          height: 55px;
+        }
       }
       h3 {
         font-size: 0.9em;
-      }
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  .partnersLogos {
-    div {
-      padding-top: 1vh;
-      div img {
-        height: 85px;
-      }
-      h3 {
-        font-size: 1em;
-      }
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  .partnersLogos {
-    div {
-      width: 25vw;
-      div img {
-        height: 50px;
-      }
-      h3 {
-        padding-bottom: 15px;
-        text-align: center;
-        font-size: 0.7em;
       }
     }
   }

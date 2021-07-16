@@ -1,13 +1,11 @@
 .steps {
   display: flex;
   flex-basis: 45vh;
-  align-items: center;
   justify-content: space-around;
   padding-left: 5vw;
   padding-right: 5vw;
-
   div {
-    flex-basis: 20vw;
+    flex-basis: 25vw;
     div {
       position: relative;
       background-color: rgb(117, 187, 70);
@@ -29,53 +27,25 @@
     p {
       padding-bottom: 15px;
       text-align: center;
+      font-size: 2em;
     }
   }
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 775px) {
   main {
     .intro {
       .steps div {
-        font-size: 0.9em;
-        flex-basis: 30vh;
-      }
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  main {
-    .intro {
-      .steps div {
-        font-size: 0.8em;
-      }
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  main {
-    .intro {
-      .steps {
-        flex-basis: 80%;
-        padding-left: 2vw;
-        padding-right: 2vw;
         div {
-          flex-basis: 30vw;
-          div {
-            width: 50px;
-            height: 50px;
-            margin-bottom: 1vh;
-            img {
-              height: 35px;
-            }
+          height: 50px;
+          width: 50px;
+          img {
+            height: 30px;
           }
-          h3,
-          p {
-            padding-bottom: 1%;
-            font-size: 0.72em;
-          }
+        }
+        h3,
+        p {
+          font-size: 1.2em;
         }
       }
     }

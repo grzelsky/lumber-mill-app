@@ -2,24 +2,22 @@ main {
   .partners {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     height: 85vh;
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     .partnersTitle {
-      flex-basis: 40vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-basis: 15vh;
       h2 {
         text-align: center;
-        font-size: 35px;
+        font-size: 3.5em;
         text-transform: capitalize;
-        padding-top: 10vh;
       }
       p {
-        position: relative;
-        left: 50%;
-        transform: translate(-50%);
         text-align: center;
-        font-size: 25px;
-        width: 80vw;
-        padding-top: 10vh;
+        font-size: 2.5em;
       }
     }
     .partnersLogos {
@@ -28,76 +26,24 @@ main {
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-around;
-      padding-left: 15vw;
-      padding-right: 15vw;
-      padding-bottom: 2vh;
+      padding-left: 11vw;
+      padding-right: 11vw;
+      font-size: 1.6em;
     }
   }
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 775px) {
   main {
     .partners {
-      height: 50vh;
-      .partnersTitle {
-        flex-basis: 40vh;
-        h2 {
-          font-size: 1.5em;
-          padding-top: 2vh;
-        }
-
-        p {
-          font-size: 1.3em;
-          padding-top: 2vh;
-        }
-      }
-      .partnersLogos {
-        padding-bottom: 2vh;
-      }
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  main {
-    .partners {
-      height: 50vh;
-      .partnersTitle {
-        flex-basis: 40vh;
-        h2 {
-          font-size: 1.5em;
-          padding-top: 2vh;
-        }
-        p {
-          font-size: 1.3em;
-          padding-top: 2vh;
-        }
-      }
-      .partnersLogos {
-        padding-bottom: 2vh;
-      }
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  main {
-    .partners {
-      height: 82vh;
       .partnersTitle {
         h2 {
-          font-size: 1.5em;
-          padding-top: 3vh;
+          font-size: 2.4em;
         }
         p {
-          font-size: 1em;
-          padding-top: 2vh;
+          font-size: 1.6em;
+          padding: 0 2vh 0 2vh;
         }
-      }
-      .partnersLogos {
-        padding-left: 1vw;
-        padding-right: 1vw;
-        padding-bottom: 2vh;
       }
     }
   }

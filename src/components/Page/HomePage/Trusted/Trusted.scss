@@ -4,30 +4,28 @@ main {
     flex-direction: column;
     flex-basis: 40vh;
     .trustedTitle {
-      flex-basis: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-self: center;
+      flex-basis: 25vh;
       h2 {
         text-align: center;
-        font-size: 35px;
+        font-size: 3.5em;
         text-transform: capitalize;
-        padding-top: 5vh;
       }
       p {
-        position: relative;
-        left: 50%;
-        transform: translate(-50%);
         text-align: center;
-        font-size: 25px;
+        font-size: 2.5em;
         width: 80vw;
-        padding-top: 5vh;
       }
     }
     .trustedPeople {
       display: flex;
-      flex-basis: 50vh;
       align-items: center;
       padding-left: 15vw;
       padding-right: 15vw;
-      padding-bottom: 2vh;
+      font-size: 1.6em;
     }
   }
 }
@@ -35,66 +33,25 @@ main {
 @media (max-width: 1366px) {
   main {
     .trusted {
-      flex-basis: 40vh;
       .trustedTitle {
-        flex-basis: 10vh;
-        h2 {
-          font-size: 1.5em;
-          padding-top: 2vh;
-        }
         p {
-          font-size: 1.3em;
-          padding-top: 2vh;
+          font-size: 2em;
         }
-      }
-      .trustedPeople {
-        padding-bottom: 2vh;
       }
     }
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 775px) {
   main {
     .trusted {
-      height: 45vh;
-      .trustedTitle {
-        flex-basis: 5vh;
-        h2 {
-          font-size: 1.5em;
-          padding-top: 1vh;
-        }
-        p {
-          font-size: 1.3em;
-          padding-top: 1vh;
-        }
-      }
-      .trustedPeople {
-        padding-bottom: 2vh;
-        padding-left: 1vw;
-        padding-right: 1vw;
-      }
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  main {
-    .trusted {
-      height: 70vh;
       .trustedTitle {
         h2 {
-          font-size: 1.5em;
-          padding-top: 3vh;
+          font-size: 2.4em;
         }
         p {
-          font-size: 1em;
-          padding-top: 2vh;
+          font-size: 1.6em;
         }
-      }
-      .trustedPeople {
-        padding-left: 0;
-        padding-right: 0;
       }
     }
   }

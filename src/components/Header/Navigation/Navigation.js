@@ -52,8 +52,10 @@ const Navigation = () => {
           ) : (
             <img className="axes" src={axesBW} alt="" />
           )}
-          <p className={scrolled ? "scrolled" : "p"}> lumber </p>
-          <p className={scrolled ? "scrolled" : "p"}> solutions </p>
+          <div class="companyName">
+            <p className={scrolled ? "scrolled" : "p"}> lumber </p>
+            <p className={scrolled ? "scrolled" : "p"}> solutions </p>
+          </div>
         </NavLink>
       </div>
       <ul>{menu}</ul>

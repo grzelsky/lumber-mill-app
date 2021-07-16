@@ -1,23 +1,22 @@
 .trustedPeople {
+  display: flex;
+  flex-basis: 45vh;
+  justify-content: space-between;
   div {
-    flex-basis: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
     height: 35vh;
-    margin-top: 3vh;
+
     div {
-      position: relative;
-      left: 50%;
-      transform: translate(-50%);
       width: 120px;
       height: 120px;
       border-radius: 60px;
     }
     h3 {
-      position: relative;
       text-align: center;
-      margin-top: 5vh;
-      width: 15vw;
-      left: 50%;
-      transform: translate(-50%);
+      width: 20vw;
     }
     .man {
       background-position: 23% 20%;
@@ -40,56 +39,35 @@
       margin-top: 2vh;
       h3 {
         margin-top: 5vh;
-        font-size: 0.9em;
       }
     }
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 775px) {
   .trustedPeople {
     div {
-      height: 30vh;
-      margin-top: 1vh;
-      justify-content: space-around;
+      height: 50vh;
+      margin-top: 2vh;
       h3 {
-        margin-top: 1vh;
-        font-size: 1em;
-        width: 25vw;
-      }
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  .trustedPeople {
-    div {
-      height: 100%;
-      margin-top: 3vh;
-      width: 50vw;
-      div {
-        position: relative;
-        left: 50%;
-        transform: translate(-50%);
-        width: 120px;
-        height: 120px;
-        border-radius: 60px;
-        height: 85px;
-        width: 85px;
-      }
-      h3 {
-        margin-top: 1vh;
-        width: 25vw;
+        margin-top: 5vh;
         font-size: 0.7em;
       }
+      div {
+        width: 75px;
+        height: 75px;
+        border-radius: 60px;
+      }
       .man {
-        background-position: 24% 22%;
-        background-size: 600%;
+        background-position: 23% 20%;
+        background-size: 500%;
       }
       .buisnesswoman {
+        background-position: 60% 2%;
         background-size: 250%;
       }
       .granny {
+        background-position: 20% 0%;
         background-size: 200%;
       }
     }
