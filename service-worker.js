@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/lumber-mill-app/precache-manifest.60d6ddff88e5224e816799beace83c5e.js"
+  "/lumber-mill-app/precache-manifest.b02a116613bc52c0c482f9edd6ef410b.js"
 );
 
 self.addEventListener('message', (event) => {
